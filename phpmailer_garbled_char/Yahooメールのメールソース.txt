@@ -1,0 +1,80 @@
+X-Apparently-To: xxxxx@yahoo.co.jp; Wed, 11 May 2022 17:00:24 +0900
+Return-Path: <xxxxx@gmail.com>
+Received-SPF: pass (domain of gmail.com designates 209.85.215.172 as permitted sender)
+X-YMailISG: Jkx0IL0WLDvEk2D2pSUn0zq3CIJGjvqI48tf3XU2lw5BwNT9
+ TGV0Xgq_emrVtFTSd9tXoke5a6kkc0t4f7rcJvH3mBGduv2WMnEaNafB.CaP
+ ZSCxq4MPyNIsHw7nJbbCeiqWGvyM5_zm.8EUvy7jgEmT0rAH6P5oUdrSvlNG
+ C.BEr_DolyYAXY9D.5i11Pa.elZHLRLUVovDnFbTVf3HkpKnN4rXCBqGn_Yp
+ 7GGkpWIXCqR05j006drIZwnXT5RLUKpamPslK1J4DABs9R6y4esxHOqzZoG2
+ FJJwG4QZA1ANxO8HcCA_cm9gw23LuGaJBUUYS_TLi51RKSC_J6IkYekRQ2vj
+ yO3fk5nwglm6b3hTY4fXah5A1LuY5f3l3wRINiTIr42pdOjo8WPDi8vZRlc9
+ Q.gaO7Is4gEW3MQ4v8A2dExLa6YNq.26sfElmPK321p577081Gdf__rqWQlj
+ NQitcl3UmT066QsfHxK2oBaMuRzWQG1pMIauNOTKB0QgtL24RyyfUIqAydYi
+ ZRxWxFO3xht03Z77CS0G8GpkGd7D.oqbs9UsAcCQW_ekX1sznO97kFQ0.0PF
+ 1cMtdT5LG1fq2.vrLH.7NlmW5o4jQgWOZmtxhzHO5joj3rBiH8y.VAGEua6V
+ AfWvd75AcaiWEB2g_Jz5tpdA4N2GbUY4f.cCdNMep4gKgcTIbNIoTfMkHUzK
+ _xlgbdF7rLHdrlaRB.pbOVIAaTLc7AIFH3eo2dn0zn7z.U5c7g98fZ43.Zq8
+ 9Jg62If0vN.XRpq_WBLLdzmv6aL5Vx6aUOtG_yibYUIaenlQnm37Xr7p5hRg
+ kMrmcYOaje2Qp_lZV.OaktTzyKDg4YlTyW_Oi_rfObvQTVXOIYXSx1JyRLU2
+ 8WsRrjDa.bJmO3Bn.AD0.WZCV4kwldyDuma.kW1vjG_Nqmje5hZFrEDGqXw4
+ Wvq0Ou1Uc8Rxue9hvvUZNMMMJ_RN06bT5gn2DEpOj6XbK9Ym9mBGQKR9hYOI
+ W4HFBsbTpbayGf4doevRBZnAKkfTEx7riTDW3YGMNpJR42GboenbN.jepoCs
+ f4y_0wpSGtMaYuEJl_VmhnVHQqX_r9Ztw9UUHEIV2ppo..NwZRng_f4UA0Md
+ vDkDQN0.1r4jOvxrMKJY7Jh_Z3ILLufKieMXtNV8D6H2_dLcEW9h837Jgg06
+ a3aOt7REsgktuRUGZcnzkaY.3Ibhgt4oRif7vLDP_a_az7GmvkNCfuT5W9bw
+ 062Erd_GFoE1ChoXH7TkeJc49Afde1Ty1c.RcGDHpiTlbOZ0uXYXUg5reGxW
+ nb.zICpdzX.q5j2UHwihRxJXGlipXK_BWqQGy5sxiggZDY644olj6MN7GJnn
+ 236wtuR4ftWkK3pzKfpvWIdqovSBbd4NL54MMfDKB.L2bOXr_7CHkUwgb2a.
+ cEenPj.tF1z.rA9b54Ez_mSL5QaTmekYOunJ2YO6A6wfKjx3fVXenhc8B2h9
+ jO_K8bs8cg--
+X-Originating-IP: [209.85.215.172]
+Received-SPF: pass (mail-pg1-f172.google.com: domain of xxxxx@gmail.com designates 209.85.215.172 as permitted sender) receiver=mail-pg1-f172.google.com; client-ip=209.85.215.172; envelope-from=xxxxx@gmail.com;
+Authentication-Results: mta0009.mail.otm.ynwp.yahoo.co.jp  from=gmail.com; domainkeys=neutral (no sig); dkim=pass (ok); header.i=@gmail.com; dmarc=pass (p=NONE,sp=QUARANTINE,pct=100,domain=gmail.com); header.from=gmail.com
+Received: from 202.93.77.126  (EHLO mail-pg1-f172.google.com) (209.85.215.172)
+  by mta0009.mail.otm.ynwp.yahoo.co.jp with SMTP; Wed, 11 May 2022 17:00:24 +0900
+Received: by mail-pg1-f172.google.com with SMTP id a19so910307pgw.6
+        for <xxxxx@yahoo.co.jp>; Wed, 11 May 2022 01:00:24 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=date:to:from:subject:message-id:mime-version
+         :content-transfer-encoding;
+        bh=W2VvwkxcZU0fyXBs3ORywYC7IT5vY5UJ+0auswV7MaE=;
+        b=ppKCvgmxShujXtf1OFluWKHSRp1iWIuJFy3C8+YzsUTX09+1QvNwv2Ew8jZqqr+kIm
+         od3+kDcl9jMnp1e+Ybh1mfqLKAtZ1ZEYHpA4N3oYCdZhaYjJBCTL+6CI6zMvsD0PzFfC
+         dsu4g2F3Ofn1Dx0t3n7sBX2bgt5qWXehbTTkh33uM9IXwQSEjuC8rssbchRUhdYFaZdv
+         8xPUiI1SAdEuabXdk3ts+Q9FHedxI2goF5VVmk8mFicKMrMMuELAb1M+vFPbMeR+py3V
+         q6apJET5CgkYLah+zwYKPp7O7mUcxX3vEsqmCijhZp/gMRLjnMKxc9Ns57MxODM5/Nyv
+         qhjA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:date:to:from:subject:message-id:mime-version
+         :content-transfer-encoding;
+        bh=W2VvwkxcZU0fyXBs3ORywYC7IT5vY5UJ+0auswV7MaE=;
+        b=Nr/tOXWjJGKgNXLh1HLHRjU+H8P8Q7GrLvw8PfL2kLJuopHqYGFCjyf31GCzQGuz5f
+         OQAdVlZGFdUedsaAjXVtTf1ISvryDSkGwN1gR/e+W/2Em83+d6MoV33YkG5kxojc5jVR
+         2DeSIk+wD4zs5oNRKGykgt5oEwYOPoszrP+ZPXIMJnWB1vdDVvdjVEZFEaV6f/rgRkGz
+         RhcI6+ApRkSXoKMetpPWpBmrqkw5XNc8lVuNR9UG98lZfePhmdfB0zNC4bvjU5i9bnX1
+         Ge4t1zVb2Pgi7BwfptgMFkqBX8GjwXj8D8JfcaYFOV7U2Mpdvt08mn2FQ2ZJnajjdBOt
+         LIpQ==
+X-Gm-Message-State: AOAM5326Jk5OKx1SnB/ZhQjR58j/gJymAylsntgd4tbUUYucz3ghYrgw
+	tgq7+GfwRTp8g6BULrSjXFw8icjRd1M=
+X-Google-Smtp-Source: ABdhPJy/k6XL3kydu6pA7WMlCZfUQvIl9oTjIjgWHWC3I2Nj+SFzPavW7G5MmmJPXXkav1lbQr3pTw==
+X-Received: by 2002:a62:a516:0:b0:505:722e:15d5 with SMTP id v22-20020a62a516000000b00505722e15d5mr24275108pfm.52.1652256023859;
+        Wed, 11 May 2022 01:00:23 -0700 (PDT)
+Return-Path: <xxxxx@gmail.com>
+Received: from localhost ([2402:6b00:7afb:1400:a833:a808:c938:4e38])
+        by smtp.gmail.com with ESMTPSA id k5-20020a170902ce0500b0015e8d4eb25csm1058247plg.166.2022.05.11.01.00.22
+        for <xxxxx@yahoo.co.jp>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 11 May 2022 01:00:23 -0700 (PDT)
+Date: Wed, 11 May 2022 10:00:32 +0200
+To: =?utf-8?B?44GC44GC44GC?= <xxxxx@yahoo.co.jp>
+From: =?utf-8?B?44KI44GX44Gu44G/44GN?= <xxxxx@gmail.com>
+Subject: =?utf-8?B?44GK5ZWP44GE5ZCI44KP44Gb44GC44KK44GM44Go44GG44GU44GW44GE44G+?=
+ =?utf-8?B?44GZ44CC?=
+Message-ID: <QUwqiZHPSwTNCqwvt7hiu0CPNl8Mzmj232nlvxE@localhost>
+X-Mailer: PHPMailer 6.6.0 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+Content-Length: 70

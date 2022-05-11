@@ -1,0 +1,80 @@
+# debug level 2; message: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP k5-20020a170902ce0500b0015e8d4eb25csm1058247plg.166 - gsmtp
+debug level 1; message: CLIENT -> SERVER: EHLO localhost
+debug level 2; message: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2402:6b00:7afb:1400:a833:a808:c938:4e38] 250-SIZE 35882577 250-8BITMIME 250-STARTTLS 250-ENHANCEDSTATUSCODES 250-PIPELINING 250-CHUNKING 250 SMTPUTF8
+debug level 1; message: CLIENT -> SERVER: STARTTLS
+debug level 2; message: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+debug level 1; message: CLIENT -> SERVER: EHLO localhost
+debug level 2; message: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2402:6b00:7afb:1400:a833:a808:c938:4e38] 250-SIZE 35882577 250-8BITMIME 250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH 250-ENHANCEDSTATUSCODES 250-PIPELINING 250-CHUNKING 250 SMTPUTF8
+debug level 1; message: CLIENT -> SERVER: AUTH LOGIN
+debug level 2; message: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+debug level 1; message: CLIENT -> SERVER: [credentials hidden]
+debug level 2; message: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+debug level 1; message: CLIENT -> SERVER: [credentials hidden]
+debug level 2; message: SERVER -> CLIENT: 235 2.7.0 Accepted
+debug level 1; message: CLIENT -> SERVER: MAIL FROM:
+debug level 2; message: SERVER -> CLIENT: 250 2.1.0 OK k5-20020a170902ce0500b0015e8d4eb25csm1058247plg.166 - gsmtp
+debug level 1; message: CLIENT -> SERVER: RCPT TO:
+debug level 2; message: SERVER -> CLIENT: 250 2.1.5 OK k5-20020a170902ce0500b0015e8d4eb25csm1058247plg.166 - gsmtp
+debug level 1; message: CLIENT -> SERVER: DATA
+debug level 2; message: SERVER -> CLIENT: 354 Go ahead k5-20020a170902ce0500b0015e8d4eb25csm1058247plg.166 - gsmtp
+debug level 1; message: CLIENT -> SERVER: Date: Wed, 11 May 2022 10:00:32 +0200
+debug level 1; message: CLIENT -> SERVER: To: =?utf-8?B?44GC44GC44GC?=
+debug level 1; message: CLIENT -> SERVER: From: =?utf-8?B?44KI44GX44Gu44G/44GN?=
+debug level 1; message: CLIENT -> SERVER: Subject: =?utf-8?B?44GK5ZWP44GE5ZCI44KP44Gb44GC44KK44GM44Go44GG44GU44GW44GE44G+?=
+debug level 1; message: CLIENT -> SERVER: =?utf-8?B?44GZ44CC?=
+debug level 1; message: CLIENT -> SERVER: Message-ID:
+debug level 1; message: CLIENT -> SERVER: X-Mailer: PHPMailer 6.6.0 (https://github.com/PHPMailer/PHPMailer)
+debug level 1; message: CLIENT -> SERVER: MIME-Version: 1.0
+debug level 1; message: CLIENT -> SERVER: Content-Type: text/plain; charset=utf-8
+debug level 1; message: CLIENT -> SERVER: Content-Transfer-Encoding: base64
+debug level 1; message: CLIENT -> SERVER:
+debug level 1; message: CLIENT -> SERVER: 44GK5ZWP44GE5ZCI44KP44Gb44GC44KK44GM44Go44GG44GU44GW44GE44G+44GZ44CC
+debug level 1; message: CLIENT -> SERVER:
+debug level 1; message: CLIENT -> SERVER: .
+debug level 2; message: SERVER -> CLIENT: 250 2.0.0 OK 1652256023 k5-20020a170902ce0500b0015e8d4eb25csm1058247plg.166 - gsmtp
+debug level 1; message: CLIENT -> SERVER: QUIT
+debug level 2; message: SERVER -> CLIENT: 221 2.0.0 closing connection k5-20020a170902ce0500b0015e8d4eb25csm1058247plg.166 - gsmtp
+debug level 2; message: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP bj10-20020a170902850a00b0015e8d4eb20fsm1030365plb.89 - gsmtp
+debug level 1; message: CLIENT -> SERVER: EHLO localhost
+debug level 2; message: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2402:6b00:7afb:1400:a833:a808:c938:4e38] 250-SIZE 35882577 250-8BITMIME 250-STARTTLS 250-ENHANCEDSTATUSCODES 250-PIPELINING 250-CHUNKING 250 SMTPUTF8
+debug level 1; message: CLIENT -> SERVER: STARTTLS
+debug level 2; message: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+debug level 1; message: CLIENT -> SERVER: EHLO localhost
+debug level 2; message: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2402:6b00:7afb:1400:a833:a808:c938:4e38] 250-SIZE 35882577 250-8BITMIME 250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH 250-ENHANCEDSTATUSCODES 250-PIPELINING 250-CHUNKING 250 SMTPUTF8
+debug level 1; message: CLIENT -> SERVER: AUTH LOGIN
+debug level 2; message: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+debug level 1; message: CLIENT -> SERVER: [credentials hidden]
+debug level 2; message: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+debug level 1; message: CLIENT -> SERVER: [credentials hidden]
+debug level 2; message: SERVER -> CLIENT: 235 2.7.0 Accepted
+debug level 1; message: CLIENT -> SERVER: MAIL FROM:
+debug level 2; message: SERVER -> CLIENT: 250 2.1.0 OK bj10-20020a170902850a00b0015e8d4eb20fsm1030365plb.89 - gsmtp
+debug level 1; message: CLIENT -> SERVER: RCPT TO:
+debug level 2; message: SERVER -> CLIENT: 250 2.1.5 OK bj10-20020a170902850a00b0015e8d4eb20fsm1030365plb.89 - gsmtp
+debug level 1; message: CLIENT -> SERVER: DATA
+debug level 2; message: SERVER -> CLIENT: 354 Go ahead bj10-20020a170902850a00b0015e8d4eb20fsm1030365plb.89 - gsmtp
+debug level 1; message: CLIENT -> SERVER: Date: Wed, 11 May 2022 10:00:35 +0200
+debug level 1; message: CLIENT -> SERVER: To: =?utf-8?B?44KI44GX44Gu44G/44GN?=
+debug level 1; message: CLIENT -> SERVER: From: =?utf-8?B?44KI44GX44Gu44G/44GN?=
+debug level 1; message: CLIENT -> SERVER: Subject: =?utf-8?B?44GK5ZWP44GE5ZCI44KP44Gb44KS5Y+X44GR5LuY44GR44G+44GX44Gf?=
+debug level 1; message: CLIENT -> SERVER: Message-ID: <2KO1x5rUNanurb2rrAXcxwsU91nL09EB1WKwW51Uwsk@localhost>
+debug level 1; message: CLIENT -> SERVER: X-Mailer: PHPMailer 6.6.0 (https://github.com/PHPMailer/PHPMailer)
+debug level 1; message: CLIENT -> SERVER: MIME-Version: 1.0
+debug level 1; message: CLIENT -> SERVER: Content-Type: text/plain; charset=utf-8
+debug level 1; message: CLIENT -> SERVER: Content-Transfer-Encoding: base64
+debug level 1; message: CLIENT -> SERVER:
+debug level 1; message: CLIENT -> SERVER: 5LiL6KiY44Gu5YaF5a6544Gn44GK5ZWP44GE5ZCI44KP44Gb44GM44GC44KK44G+44GX44Gf44CC
+debug level 1; message: CLIENT -> SERVER: CgrjgYrlkI3liY3vvJrjgYLjgYLjgYIK44Oh44O844Or44Ki44OJ44Os44K577yacmljZV8zMzMz
+debug level 1; message: CLIENT -> SERVER: QHlhaG9vLmNvLmpwCuOBiuWVj+OBhOWQiOOCj+OBm+WGheWuue+8mgphYWFhYWFhYWFhYWFhYWFh
+debug level 1; message: CLIENT -> SERVER: YWFhYWFhYWFhYWFhYWFhYWFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB77yh77yh77yh77yh
+debug level 1; message: CLIENT -> SERVER: 77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh
+debug level 1; message: CLIENT -> SERVER: 77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh
+debug level 1; message: CLIENT -> SERVER: 77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh77yh
+debug level 1; message: CLIENT -> SERVER: 44GC44GC44GC44GC44GC44GC44GC44GC44GC44GC44GC44Kr44K/44Kr44OK5ryi5a2XMTIzNDU2
+debug level 1; message: CLIENT -> SERVER: Nzg5MO+8ke+8ku+8k++8lO+8le+8lu+8l++8mO+8me+8kCEiIyQlJiYnJygpPX58e2ArKn1fPz48
+debug level 1; message: CLIENT -> SERVER: LiwiIg==
+debug level 1; message: CLIENT -> SERVER:
+debug level 1; message: CLIENT -> SERVER: .
+debug level 2; message: SERVER -> CLIENT: 250 2.0.0 OK 1652256027 bj10-20020a170902850a00b0015e8d4eb20fsm1030365plb.89 - gsmtp
+debug level 1; message: CLIENT -> SERVER: QUIT
+debug level 2; message: SERVER -> CLIENT: 221 2.0.0 closing connection bj10-20020a170902850a00b0015e8d4eb20fsm1030365plb.89 - gsmtp
