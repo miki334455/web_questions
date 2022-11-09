@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+	<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<title>test2</title>
+		<meta name="description" content="AKB48の仲良し4人組「ゆうなぁもぎおん」の応援サイトです。
+		「ゆうなぁもぎおん」について紹介したり、管理人のブログにて情報を随時更新しています。">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+
+		<!-- bxslider -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet">
+
+		<link rel="stylesheet" media="screen" href="./test.css" type="text/css">
+		
+		<!--  Google Font ここから -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+		<!--  Google Font ここまで -->
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<!-- header ここから -->
+		<header></header>
+		<!-- header ここまで -->
+
+		<!-- slider_YNMO_CH ここから -->
+		<div class="slider_YNMO_CH">
+			<ul class="slider">
+				<li class="slider1 slide">
+					<iframe src="https://www.youtube.com/embed/_sBJVDXQPjs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</li>
+				<li class="slider2 slide">
+					<iframe src="https://www.youtube.com/embed/Bm_PpwH7pkI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</li>
+				<li class="slider3 slide">
+					<iframe src="https://www.youtube.com/embed/VCoQsColgEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</li>
+				<li class="slider4 slide">
+					<iframe src="https://www.youtube.com/embed/SNByuFFQN14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</li>
+				<li class="slider5 slide">
+					<iframe src="https://www.youtube.com/embed/Nl7VyKdL6RA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</li>
+			</ul>
+			<!-- 左右の矢印ボタン -->
+			<div class="custom-control">
+				<div class="custom-prev"></div>
+				<div class="custom-next"></div>
+			</div>
+		</div>
+		<!-- slider_YNMO_CH ここまで -->
+
+		<!-- bxslider ここから -->
+		<!-- jQuery library (served from Google) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+			
+		<script>
+			$(document).ready(function(){
+				$('.slider').bxSlider({
+					prevSelector: '.custom-prev',
+					nextSelector: '.custom-next'
+				});
+			});
+		</script>
+		<!-- bxslider ここまで -->
+	</body>
+</html>
