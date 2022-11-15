@@ -4,11 +4,17 @@ body {
   font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
   color: #333333;
   background-color: #FFFEFE;
+  margin: 0; /*user agent stylesheetを消すため*/
+}
+body a {
+  text-decoration: none; /*user agent stylesheetを消すため*/
 }
 
 .slider_YNMO_CH {
   overflow: hidden; /*はみ出した部分は表示しない*/
   margin-bottom: 100px;
+  /*test*/
+  /*test-end*/
 }
 .slider_YNMO_CH .slider {
   position: relative;
@@ -26,6 +32,58 @@ body {
   height: 23.4375vw; /* 450px / 1920px * 100% */
   -o-object-fit: cover;
      object-fit: cover;
+}
+.slider_YNMO_CH .custom-control {
+  display: flex;
+  justify-content: center;
+  color: #A4A4A4;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  /*test*/
+  position: relative;
+  /*test-end*/
+}
+.slider_YNMO_CH .custom-control .pagination__btn--prev, .slider_YNMO_CH .custom-control .pagination__btn--next {
+  box-sizing: border-box;
+  display: block;
+  color: #A4A4A4;
+  text-decoration: none;
+  text-align: center;
+  background: #FFF;
+  border: 1px solid #A4A4A4;
+  border-radius: 1em;
+  min-width: 2em;
+  transition: all 0.2s;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  padding: calc(0.5em - 1px) 0.5em;
+}
+.slider_YNMO_CH .custom-control .pagination__btn--prev:hover, .slider_YNMO_CH .custom-control .pagination__btn--next:hover {
+  color: #FFF;
+  background: #FFDEF5;
+  border: 1px solid #FFDEF5;
+}
+.slider_YNMO_CH .custom-control .pagination__btn--prev {
+  order: 1;
+  /*test*/
+  position: absolute;
+  top: 0;
+  left: 34.635416666vw;
+  outline: 0; /*輪郭線をなしにする*/
+  width: 32px;
+  height: 32px;
+  /*test-end*/
+}
+.slider_YNMO_CH .custom-control .pagination__btn--next {
+  order: 3;
+  /*test*/
+  position: absolute;
+  top: 10px;
+  right: 34.635416666vw;
+  outline: 0; /*輪郭線をなしにする*/
+  width: 32px;
+  height: 32px;
+  /*test-end*/
 }
 
 /* bxSlider */

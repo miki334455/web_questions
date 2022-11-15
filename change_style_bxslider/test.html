@@ -44,10 +44,11 @@
 					<iframe src="https://www.youtube.com/embed/Nl7VyKdL6RA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</li>
 			</ul>
+
 			<!-- 左右の矢印ボタン -->
 			<div class="custom-control">
-				<div class="custom-prev"></div>
-				<div class="custom-next"></div>
+				<div class="pagination__btn--prev"></div>
+				<div class="pagination__btn--next"></div>
 			</div>
 		</div>
 		<!-- slider_YNMO_CH ここまで -->
@@ -60,8 +61,11 @@
 		<script>
 			$(document).ready(function(){
 				$('.slider').bxSlider({
-					prevSelector: '.custom-prev',
-					nextSelector: '.custom-next'
+					prevSelector: '.pagination__btn--prev',
+					nextSelector: '.pagination__btn--next',
+					prevText: '<',
+					nextText: '>'
+
 				});
 			});
 		</script>
