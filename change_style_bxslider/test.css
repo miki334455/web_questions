@@ -78,7 +78,7 @@ body a {
   order: 3;
   /*test*/
   position: absolute;
-  top: 10px;
+  top: 0px;
   right: 34.635416666vw;
   outline: 0; /*輪郭線をなしにする*/
   width: 32px;
