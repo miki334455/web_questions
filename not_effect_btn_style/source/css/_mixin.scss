@@ -1,0 +1,77 @@
+@charset "UTF-8";
+@use "variables" as variables;
+
+/*topページの見出しのスタイル*/
+@mixin topHeadingStyle {
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 7.194244604vw;
+	font-weight: bold;
+	color: variables.$officalAKBColor;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+/*topページのボタンのスタイル*/
+@mixin topBtnStyle {
+	/*ボタン共通設定*/
+	font-family: 'Noto Sans JP', sans-serif;
+	color: variables.$bgColor;
+	background-color: #979797;
+	text-align:center;
+	padding: 3px 15px;
+	font-size: 16px;
+	border-radius: 10px;
+	text-decoration: none;			/*test用*/
+	display: inline-block;
+	/*矢印の基点とするためrelativeを指定*/
+	position: relative;
+	/*アニメーションの指定*/
+	transition: all .2s ease;
+
+	&:hover {
+		opacity: 0.8;
+	}
+}
+
+/*topページのボタンの"矢印"のスタイル*/
+@mixin topBtnArrowStyle{
+	&::before {
+	content: "";
+	/*絶対配置で矢印の位置を決める*/
+	position: absolute;
+	top: 50%;
+	right: 18px;
+	/*矢印の形状(平行線の部分)*/
+	width: 12px;
+	height: 1px;
+	background-color: #FFFEFE;
+	/*アニメーションの指定*/
+	transition: all .2s ease;
+	}
+
+	&::after {
+		content: "";
+		/*絶対配置で矢印の位置を決める*/
+		position: absolute;
+		top: 44%;
+		right: 18px;
+		/*矢印の形状(くの字の部分)*/
+		width: 5px;
+		height: 5px;
+		border-top: 1px solid #FFFEFE;			/*上辺*/
+		border-right: 1px solid #FFFEFE;		/*右辺*/
+		transform: rotate(45deg);				/*時計回りに45度回転する。*/
+		/*アニメーションの指定*/
+		transition: all .2s ease;
+	}
+
+	&:hover::before {
+		right: 10px;
+		opacity: 0.8;
+	}
+
+	&:hover::after {
+		right: 10px;
+		opacity: 0.8;
+	}
+}
