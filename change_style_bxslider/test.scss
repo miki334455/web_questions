@@ -36,6 +36,30 @@ body {
 	}
 
 	/*test*/
+
+	.bx-wrapper .bx-pager {
+		padding-top: 50px;
+
+		.bx-default-pager a {
+			background: #333333;			/*変数に変える必要あり*/
+			text-indent: -9999px;
+			display: block;
+			width: 1.041666666vw;
+			height: 1.041666666vw;
+			margin: 0 1.5625vw;
+			outline: 0;
+			-moz-border-radius: 0.520833333vw;
+			-webkit-border-radius: 0.520833333vw;
+			border-radius: 0.520833333vw;
+	
+			&:hover, &:active, &:focus {
+				background: #F676A6;			/*変数に変える必要あり*/
+			}
+		}
+	}
+
+
+	/*test*/
 	.custom-control {
 		display: flex;
 		justify-content: center;

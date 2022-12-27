@@ -1,0 +1,481 @@
+@charset "UTF-8";
+@use "forward" as variableFunc;
+
+body {
+	font-size: 16px;
+	font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+	color: variableFunc.$textColor;
+	background-color: variableFunc.$bgColor;
+}
+
+header {
+	z-index: 100;
+	background-color: rgba(255, 254, 254, 0.5);
+	position: sticky;
+	top: 0;
+	width: 100%;
+	height: 15vw;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	flex: 1;
+	align-items: center;
+
+	h1 {
+		font-family: "せのびゴシック","Arial","メイリオ",sans-serif;
+		font-size: 3.836930455vw;
+		font-weight: bold;
+		z-index: 1;
+		margin-left: 2.398081534vw;
+		color: #5E5E5E;
+
+		.yu_color {
+			color: variableFunc.$yuiriColor;
+		}
+
+		.na_color {
+			color: variableFunc.$nanaColor;
+		}
+
+		.mogi_color {
+			color: variableFunc.$mogiColor;
+		}
+
+		.onn_color {
+			color: variableFunc.$mionColor;
+		}
+	}
+
+	img {
+		width: 5.935251798vw;
+		height: 5.275779376vw;
+		z-index: 2;
+		margin-right: 2.398081534vw;
+	}
+}
+
+.main_image {	
+	margin-bottom: 1.798561151vw;
+	 img {
+		width: 100%;
+	}
+}
+
+.slider_YNMO_CH {
+	margin-bottom: 5.213764337vw;
+
+	.bx-wrapper {
+		box-shadow: none;
+
+		.slider .slide iframe{
+			max-width: 100%;
+			display: block;
+			aspect-ratio: 16 / 9;
+			width: 100%;
+			height: 100%;
+		}
+
+		.bx-pager {
+			padding-top: 50px;
+	
+			&.bx-default-pager a {
+				background: variableFunc.$textColor;
+				text-indent: -9999px;
+				display: block;
+				width: 1.041666666vw;
+				height: 1.041666666vw;
+				margin: 0 1.5625vw;
+				outline: 0;
+				-moz-border-radius: 0.520833333vw;
+				-webkit-border-radius: 0.520833333vw;
+				border-radius: 0.520833333vw;
+		
+				&:hover, &:active, &:focus {
+					background: variableFunc.$officalAKBColor;
+				}
+			}
+		}
+	}
+}
+
+.top_container {
+	max-width: 960px;
+	// margin: 0 2.085505735vw;
+	margin: 0 3.84615384615vw;
+
+	.top_h2 {
+		@include variableFunc.topHeadingStyle;
+	}
+
+	.top_btn {
+		.fill_bg_btn {
+			@include variableFunc.topBtnStyle;
+		}
+	}
+
+	.top_news {
+		width: 100%;
+		margin-bottom: 8.34202294056vw;
+
+		/*test*/
+		.top_news_wrapper {
+			width: 100%;
+		/*test-end*/
+			.flex_container_dl {
+				margin-bottom: 30px;
+			
+				.flex_item_date {
+					font-size: 0.8125rem;
+					padding-top: 15px;
+					padding-bottom: 15px;
+				}
+	
+				.flex_item_content {
+					padding-bottom: 15px;
+					border-bottom: 1px solid rgba(51,51,51,0.3);
+				}
+	
+				.flex_item_date,.flex_item_content {
+					text-align: left;
+					box-sizing: border-box;							/*線を要素の内側に引く為*/
+				}
+			}
+
+			/*test*/
+			.position_news_btn {
+				text-align: right;
+			}
+			/*test-end*/
+		}
+	}
+	
+	.top_twitter {
+		width: 100%;
+		margin-bottom: 100px;
+
+		.timeline_style {
+			max-width: 100%;
+			height: 700px;
+			border: 1px solid rgba(51,51,51,0.3);
+			padding: 5px 0;
+		}
+	}
+
+	.top_blog {
+		width: 100%;
+		margin-bottom: 100px;
+		.top_blog_wrapper {			/*追加*/
+			.blog_article_container {
+				display: flex;
+				flex-flow: row wrap;
+				width: 100%;
+				justify-content: space-between;
+				align-items: flex-start;
+				align-content: stretch;
+				row-gap: 9.61538461538vw;
+				margin-bottom: 30px;		/*追加*/
+	
+				.blog_article_item {
+					// width: 455px;
+					// height: 455px;
+					/*test*/
+					width: 100%;
+					/*test-end*/
+					// text-align: center;
+					// padding: 30px 77px;
+	
+					// &:nth-child(3) {
+					// 	.blog_img img {
+					// 		object-position: center top;
+					// 	}
+					// }
+	
+					// .article_wrapper {
+						// max-width: 480px;
+	
+						.blog_title {
+							font-size: 3.846153846vw;
+							font-weight: bold;
+							margin: 3.846153846vw 0 1.92307692307vw 0;
+						}
+	
+						.blog_date {
+							font-size: 2.6923076923vw;
+							color: variableFunc.$officalAKBColor;
+						}
+	
+						// .blog_img {
+							// width: 300px;
+							// height: 300px;
+							/*test*/
+							// width: 100%;
+							// height: 100%;
+							/*test-end*/
+	
+							img {
+								// width: 100%;
+								// height: 100%;
+								width: 92.3076923076vw;
+								height: 92.3076923076vw;
+								object-fit: cover;
+							}
+						// }
+	
+						p {
+							text-align: left;
+						}
+					// }
+				}
+			}
+
+			.position_blog_btn {
+				text-align: right;
+			}
+		}
+	}
+}
+
+footer {
+	width: 100%;
+	height: 50px;
+	background-color: variableFunc.$officalAKBColor;
+
+	p {
+		color: variableFunc.$bgColor;
+		font-size: 0.8125em;
+		text-align: center;
+		line-height: 50px;
+	}
+}
+
+/*画面幅：520px以上833px以下*/
+@media screen and (min-width: 520px) {
+	.top_container {
+		.top_h2 {
+			font-size: 60px;
+		}
+		.top_btn {
+			.fill_bg_btn {
+				padding: 5px 15px;
+
+				.indent {
+					display: none;
+				}
+			}
+		}
+
+		.top_news {
+			.top_news_wrapper{			/*追加*/
+				.flex_container_dl {
+					// width: 90%;
+					width: 100%;
+					display: flex;
+					flex-flow: row wrap;
+					margin-bottom: 30px;
+					// margin-left: auto;
+					// margin-right: auto;
+				
+					.flex_item_date {
+						font-size: 1rem;
+						// max-width: 224px;
+						// width: 23.357664233%;
+						width: 25%;
+						padding-left: 2%;
+						// padding-top: inherit;
+						// padding-bottom: inherit;
+						padding-top: 0;
+						padding-bottom: 0;
+
+					}
+	
+					.flex_item_content {
+						// max-width: 639px;
+						// width: 66.6319082377%;
+						width: 75%;
+						padding-bottom: inherit;
+					}
+	
+					.flex_item_date, .flex_item_content {
+						text-align: left;
+						height: 3.75em;
+						line-height: 3.75em;
+						border-bottom: 1px solid rgba(51,51,51,0.3);
+						box-sizing: border-box;							/*線を要素の内側に引く為*/
+					}
+				}
+			}
+		}
+
+		/*test*/
+		.top_blog {
+			.top_blog_wrapper {
+				.blog_article_container {
+					.blog_article_item {
+						width: 45%;
+
+						.blog_title {
+							@include variableFunc.topBlogTitleSize;
+							font-weight: bold;
+							margin: 20px 0 10px 0;
+						}
+	
+						.blog_date {
+							font-size: 0.875rem
+						}
+	
+						// .blog_img {
+							// width: 300px;
+							// height: 300px;
+							/*test*/
+							// width: 100%;
+							// height: 100%;
+							/*test-end*/
+	
+							img {
+								width: 41.3vw;
+								height: 41.3vw;
+								object-fit: cover;
+							}
+						// }
+	
+						// p {
+						// 	text-align: left;
+						// }
+					}
+				}
+			}
+		}
+		/*test-end*/
+	}
+}
+
+/*画面幅：834px以上959px以下*/
+@media screen and (min-width: 834px) {
+	.main_image {	
+		margin-bottom: 3.597122302vw;
+	}
+
+	.slider_YNMO_CH {
+		overflow: hidden;				/*はみ出した部分は表示しない*/
+	
+		.bx-wrapper .slider {
+			position: relative;
+			left: 27.8645833335vw;	/* (100vw - SlideWidth / 2 */ /* 20180210 変更 */
+			overflow: visible !important;	/*はみ出した部分が表示される　(最優先)*/
+	
+			.slide {
+				width: 44.270833333vw !important;	/* (800px(画像の幅) + 25px(margin-left) + 25px(margin-right)) / 1920px * 100 */
+				height: 23.4375vw;					/* 450px / 1920px * 100% */
+	
+				iframe {
+					margin-left: 1.302083333vw;		/* 25px / 1920px * 100% */
+					margin-right: 1.302083333vw;	/* 25px / 1920px * 100% */
+					width: 41.666666666vw;			/* 800px / 1920px * 100% */
+					height: 23.4375vw;				/* 450px / 1920px * 100% */ 
+					object-fit: cover;
+				}
+			}
+		}
+	}
+}
+
+/*画面幅：960px以上*/
+@media screen and (min-width: 960px) {
+	header {
+		width: 100%;
+		height: 130px;
+	
+		h1 {
+			font-size: 36px;
+			margin-left: 100px;
+		}
+
+		img {
+			width: 60px;
+			height: 50px;
+			margin-right: 100px;
+		}
+	}
+
+	.main_image {	
+		margin-bottom: 50px;
+	}
+
+	.slider_YNMO_CH {
+		margin-bottom: 100px;
+	}
+
+	.top_container {
+		max-width: 960px;
+		margin: 0 auto;
+
+		// .top_h2 {
+		// 	font-size: 60px;
+		// }
+		
+		.top_btn {
+			text-align: right;
+			.fill_bg_btn {
+				padding: 5px 42px 5px 15px;
+			}
+
+			.btn_arrow {
+				@include variableFunc.topBtnArrowStyle;
+			}
+		}
+
+		.top_news {
+			.flex_container_dl {
+				width: 100%;
+				margin-left: inherit;
+				margin-right: inherit;
+				margin-bottom: 30px;
+			
+				.flex_item_date {
+					max-width: 250px;
+					width: 26%;
+					padding-left: 5.2%;
+				}
+		
+				.flex_item_content {
+					max-width: 710px;
+					width: 74%;
+				}
+			}
+		}
+
+		.top_blog {
+			width: 100%;
+			margin-bottom: 100px;
+
+			.top_blog_wrapper {
+				.blog_article_container {
+					row-gap: 0;
+					.blog_article_item {
+						width: 455px;
+						height: 455px;
+						text-align: center;
+						padding: 30px 77px;
+		
+						&:nth-child(3) {
+							.blog_img img {
+								object-position: center top;
+							}
+						}
+		
+						.blog_title {
+							font-size: 1.25em;
+							margin: 30px 0 20px 0;
+						}
+	
+						img {
+							width: 300px;
+							height: 300px;
+						}
+						
+					}
+				}
+			}
+		}
+	}
+}
